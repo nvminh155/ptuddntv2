@@ -98,6 +98,16 @@ export default function Index() {
       <Pressable onPress={() => router.push("/todoapp")}>
         <Text>Login todo app </Text>
       </Pressable>
+      <Pressable onPress={signIn}>
+        <Text>Login with gooogle </Text>
+      </Pressable>
+      <Pressable onPress={() => router.push("/todoapp")}>
+        <Text>Login todo app </Text>
+      </Pressable>
+
+      <Pressable onPress={() => router.push("/kamispa/login")}>
+        <Text>go to kamispa </Text>
+      </Pressable>
     </View>
   );
 }
